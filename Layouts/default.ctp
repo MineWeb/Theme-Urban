@@ -23,8 +23,8 @@
 <!-- core CSS -->
     <link rel="icon" type="image/png" href="<?= $theme_config['favicon_url'] ?>" />
     <style class="cp-pen-styles">#particles-js{ position:absolute; width: 100%; height: 100%;margin-left:-10%;}</style>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Oxygen" rel="stylesheet">
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Montserrat+Subrayada|Oxygen" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <!--[if lt IE 9]>
     <?= $this->Html->script('html5shiv.js') ?>
     <?= $this->Html->script('respond.min.js') ?>
@@ -47,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                <p class="text-left">- Thème par <a href="http://alexm-pro.fr" target="blank"> AlexM -</a><?= $Lang->get('GLOBAL__FOOTER') ?></p>
+                <p class="text-left">- Thème par <a href="/" target="blank"> AlexM -</a><?= $Lang->get('GLOBAL__FOOTER') ?></p>
                 </div>
                 <div class="col-sm-6">
     <ul style="font-size:30px;" class="social-icons">
@@ -87,7 +87,7 @@
 
 <?= $this->Html->script('jquery.js') ?>
 <?= $this->Html->script('bootstrap.min.js') ?>
-<?= $this->Html->script('http://maps.google.com/maps/api/js?sensor=true') ?>
+<?= $this->Html->script('//maps.google.com/maps/api/js?sensor=true') ?>
 <?= $this->Html->script('owl.carousel.min.js') ?>
 <?= $this->Html->script('mousescroll.js') ?>
 <?= $this->Html->script('smoothscroll.js') ?>

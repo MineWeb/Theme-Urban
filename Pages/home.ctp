@@ -61,7 +61,7 @@
             </div>
             <div class="col-md-4 text-center">
               <div class="discord">
-                    <p><iframe src="https://discordapp.com/widget?id=<?= $theme_config['discord'] ?>" width="350" height="700" allowtransparency="true" frameborder="0"></iframe></p>
+                    <p><iframe src="//discordapp.com/widget?id=<?= $theme_config['discord'] ?>" width="350" height="700" allowtransparency="true" frameborder="0"></iframe></p>
               </div>
             </div>
         </div>
