@@ -74,7 +74,7 @@
           <a href="#" data-toggle="modal" data-target="#cart-modal" class="btn-panier btn btn-primary btn-block "><?= $Lang->get('SHOP__BUY_CART') ?></a>
         <?php } ?>
           <?php if($isConnected) { ?>
-          <a data-toggle="modal" data-target="#money" class="btn-point btn btn-warning btn-block "><?php  if($isConnected) {  echo $money.' '.$Configuration->getMoneyName();  } ?></a>
+          <a data-toggle="modal" data-target="#money" class="btn-point btn btn-warning btn-block "><?php  if($isConnected) {  echo $money;  } ?></a>
            <?php } ?>
       </div>
       <div class="col-sm-9">
