@@ -23,12 +23,6 @@ if(isset($config['logo']) && $config['logo']) {
                                     <form method="post" enctype="multipart/form-data" data-ajax="false">
 
                                       <h2>Parametres Généraux</h2>
-
-                                      <div class="form-group">
-                                        <label><?= $Lang->get('THEME__FAVICON_URL') ?></label>
-                                        <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
-                                      </div>
-
                                         <div class="form-group">
                                             <label>IP de votre serveur <small>(Afficher sur le slider)</small></label>
                                             <input type="text" class="form-control" name="slide_ip" value="<?= $config['slide_ip'] ?>">
